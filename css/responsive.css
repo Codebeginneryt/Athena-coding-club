@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1140px){
+	.home{
+		height: 65vh;
+	}
+	.home .navigation .items{
+		display: none;
+	}
+	.home .navigation .logo{
+		width: 40%;
+	}
+	.home .navigation .logo img{
+	height: 120px;
+	width: 120px;
+	margin: 30px 0 0 40px;
+}
+.home .navigation .logo h1 {
+    font-size: 30px;
+    margin: 50px 0 0 40px;
+    }
+    .home .navigation .logo span {
+    font-size: 40px;
+}
+#menu_bar{
+	color: white;
+	font-size: 50px;
+	margin: 40px 0 0 50%;
+	display: block;
+}
+.home .head {
+    margin:300px 200px 200px 200px;
+    height: 300px;
+    width: 60%;
+    }
+ .home .head h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+ .home .head p{
+ 	font-size: 30px;
+ }
+ .home .head button{
+	margin-top: 40px;
+	height: 80px;
+	width: 300px;
+	font-size: 40px;
+	border: none;
+	outline: none;
+	background: #ff9f67;
+	color: white;
+}
+.responsive_nav{
+	display: none;
+	position:fixed;
+	height: 800px;
+	width: 100%;
+	background: white;
+	top: 160px;
+    animation: side 0.3s ease-in;
+	transition: 0.3s all;
+}
+@keyframes side{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 100%;
+	}
+}
+.responsive_nav .items{
+	text-align: center;
+}
+.responsive_nav .items ul{
+	margin-top: 100px;
+}
+.responsive_nav .items ul li{
+	list-style: none;
+	margin: 40px;
+}
+.responsive_nav .items ul li a{
+	text-decoration: none;
+	font-size: 40px;
+	color: black;
+}
+.responsive_nav .items ul li a:hover{
+	border-bottom: 2px solid #ff9f67;
+	color:#ff9f67;
+}
+}
